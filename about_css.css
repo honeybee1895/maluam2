@@ -1,0 +1,79 @@
+@charset"utf-8";
+body{
+	background-image: linear-gradient(to bottom, lightblue, white);
+	font-family: 'Bad Script', cursive;
+}
+/*Cabeç~lho */
+
+.bg{
+	background-image: url("clouds.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#photo-name a{
+	text-decoration: none;
+	color: black;
+}
+
+#photo{
+	margin-top: 60px;
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#photo img{
+	border:white;
+	border-radius: 150px;
+}
+
+#icons{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+ #icons div{
+ 	padding-left:35px ;
+ 	padding-right:35px;
+ 	padding-bottom: 20px;
+
+ }
+
+ #name{
+ 	text-align: center;
+ 	padding-top: 0px;
+ 	padding-bottom: 0px;
+
+ }
+/*///////////////////*/
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+ #area{
+ 	margin:auto;
+ 	width: 92%;
+	display:flex;
+	justify-content: center;
+ 	}
+
+#mypicture{
+	padding-left: 20px;
+	padding-top: 20px;
+}
+#mypicture img{ /* FOto prncipal */
+	width: 500px;
+	border-radius: 250px;
+    border: 1px solid white;
+}
+#about{
+
+}
+
+ #text{
+ 	float: right;
+ 	padding-left: 50px;
+ }
