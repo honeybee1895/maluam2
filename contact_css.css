@@ -77,29 +77,29 @@ body{
 }
 
 #footer{
-	background-color: grey;
-	border: solid black;
 	width: 100%;
+
 }
 
 #manda{
-	margin-top: 10px;
+	text-align: center;
+	margin-top: 50px;
 	padding-top: 5px;
 	padding-left: 40px;
 }
 #formulario{
-	margin-left: 40px;
+	border:solid black;
+	margin: auto;
 	margin-bottom: 15px;
-	padding-left: 20px;
 	width: 30%;
 
-	background-color: white;
+	text-align: center;
 	display: block;
 	vertical-align: center;
 }
 
 input{
-	display: block;
+	margin: auto;
 	padding-top: 5px;
 }
 #texto{
