@@ -10,12 +10,12 @@
 <body>
 
 	<div class="bg">	
-
+	<div id="espaco"></div>
 	<div id="photo-name" >
 			
 		<a href="index.html">
 		<div id="photo"> 
-			<img src="mainme.jpg" alt="A segunda imagem" width=200>
+			<img src="mainme.jpg" alt="A segunda imagem" width="200">
 		</div> 
 
 		<div id="name"> 
@@ -24,54 +24,59 @@
 	</a>
 	</div>
 </div>
+
 	<div id="icons">
 
 		<div id="Galery">
-			<a href="gallery_malu.html"> <img src="gallery.png" alt="Link para a página inicial" width=40>  </a> 
+			<a href="gallery_malu.html"> <img src="gallery.png" alt="Link para a página inicial" width="40">  </a> 
 		 </div>
 
 		<div id="About"> 
-			<a href="about_malu.html"> <img src="me.png" alt="Link para a página inicial" width=40>   </a> 
+			<a href="about_malu.html"> <img src="me.png" alt="Link para a página inicial" width="40">   </a> 
 		</div>
 
 		<div id="Contact">
-			<a href="contact_malu.html"> <img src="phone.png" alt="Link para a página inicial" width=40>  </a>
+			<a href="contact_malu.html"> <img src="phone.png" alt="Link para a página inicial" width="40">  </a>
 		 </div>
 </div>
+	
 
 <h1 id="contact" style="font-size:3.5vw;"><!--- CONTATO----> </h1>
 <div class="info">
 <div id="insta" class="clearfix">
 	<img src="insta.png" width="80">
-	<h1 id="insta" style="font-size:2vw;">@scribble _ _ bee</h1>
+	<h1 id="instatext" style="font-size:2vw;">@scribble _ _ bee</h1>
 	 
 </div>
 <div id="facebook" class="clearfix">
 	<img src="facebook.png" width="80">
-	<h1 id="insta" style="font-size:2vw;">Malu Fernandes</h1>
+	<h1 id="fb" style="font-size:2vw;">Malu Fernandes</h1>
 </div>
 <div id="email" class="clearfix">
 	<img src="email.png" width="80">
-	<h1 id="insta" style="font-size:2vw;">@veryspecialbee@gmail.com</h1>
+	<h1 id="gmail" style="font-size:2vw;">@veryspecialbee@gmail.com</h1>
 		</div>
 	</div>
-
-	<div id="footer">
+	<div id="vazio">
+		<div id="line"></div>
+	</div>
+	<div id="formularioaqui">
 		<h2 id="manda" style="font-size:2vw;">Quer conversar? Entre em contato!</h2>
 		<form id="formulario">
   			<label for="nome">Nome</label>
-  				<input type="text" id="nome" name="nome" value="Seu nome">
+  				<input type="text" id="nome" name="nome" placeholder="Seu Nome">
   
    			<label for="email">Email</label>
-  				<input type="text" id="email" name="email" value="Seu email">
-  
-    		<label for="texto">Texto</label>
-  				<input type="text" id="texto" name="texto" value="Sua Mensagem :D">
-  				<button>Enviar!</button>
+  				<input type="text" id="formemail" name="email" placeholder="nome@seudominio.com">
+    		<div  id="mensagemlabel">Texto</div>
+  			<textarea  id="texto" name="texto" placeholder="Sua mensagem aqui"></textarea>
+  			<button id="enviar">Enviar!</button>
 </form>
 
 	</div>
-
+<div id="footer">
+	
+</div>
 
 <script>
 <!--
