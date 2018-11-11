@@ -73,8 +73,15 @@ body{
 #images img{
 	width:100%;
 	margin-bottom:20px;
-	
+	transition: 0.5s;
 }
+
+#images img:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 /*SE a janela estiver menor que 1000px fica com menos uma coluna*/
 @media screen and (max-width:800px){
 	#images{
